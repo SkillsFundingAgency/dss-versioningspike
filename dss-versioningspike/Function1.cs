@@ -6,7 +6,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Azure.WebJobs.Host;
 
-namespace dss-versioningspike
+namespace dssversioningspike
 {
     public static class Function1
     {
@@ -14,6 +14,8 @@ namespace dss-versioningspike
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequestMessage req, TraceWriter log)
         {
             log.Info("C# HTTP trigger function processed a request.");
+
+            //This is version 1
 
             // parse query parameter
             string name = req.GetQueryNameValuePairs()
