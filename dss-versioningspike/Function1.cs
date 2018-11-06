@@ -15,7 +15,7 @@ namespace dssversioningspike
         {
             log.Info("C# HTTP trigger function processed a request.");
 
-            //This is version 3 in a branch
+            //This is version 3 in a branch which has now been changed
 
             // parse query parameter
             string name = req.GetQueryNameValuePairs()
