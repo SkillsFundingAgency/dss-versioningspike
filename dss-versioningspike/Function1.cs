@@ -19,6 +19,7 @@ namespace dssversioningspike
             //This version has been tagged fwith a semantic version - v1.0.0
             //This is a subsequent change without a tag
             //This is another patch change
+            //That had no effect on the semver, i will tag this change as v1.0.2
 
             // parse query parameter
             string name = req.GetQueryNameValuePairs()
