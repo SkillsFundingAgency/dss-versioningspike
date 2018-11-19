@@ -20,6 +20,7 @@ namespace dssversioningspike
             //This is a subsequent change without a tag
             //This is another patch change
             //That had no effect on the semver, i will tag this change as v1.0.2
+            //The tag updated the version, I will try to update this version from the commit message
 
             // parse query parameter
             string name = req.GetQueryNameValuePairs()
