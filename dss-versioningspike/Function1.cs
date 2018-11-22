@@ -15,7 +15,13 @@ namespace dssversioningspike
         {
             log.Info("C# HTTP trigger function processed a request.");
 
-            //This is version 2
+            //This is version 1 in a branch that i've made a change to
+            //This version has been tagged fwith a semantic version - v1.0.0
+            //This is a subsequent change without a tag
+            //This is another patch change
+            //That had no effect on the semver, i will tag this change as v1.0.2
+            //The tag updated the version, I will try to update this version from the commit message
+            //This is a change to a feature branch
 
             // parse query parameter
             string name = req.GetQueryNameValuePairs()
