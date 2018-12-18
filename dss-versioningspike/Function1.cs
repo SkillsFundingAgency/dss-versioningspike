@@ -28,6 +28,7 @@ namespace dssversioningspike
             //a change to v5
             //another change to v5
             //just added continuous deployment versioning
+            //a minor change to increment a mainline version number
 
             // parse query parameter
             string name = req.GetQueryNameValuePairs()
